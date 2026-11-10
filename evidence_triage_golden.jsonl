@@ -1,0 +1,11 @@
+{"id":"dependency-01","expected":"dependency","log":"[12:04] resolving synthetic packages\nERROR: Could not resolve package 'sample-lib==9.9.9'"}
+{"id":"dependency-02","expected":"dependency","log":"Step install\nNo matching distribution found for demo-wheel==0.0.0"}
+{"id":"test-01","expected":"test","log":"Running synthetic unit suite\nAssertionError: expected 4 but got 3"}
+{"id":"test-02","expected":"test","log":"Tests failed: 2 failed, 18 passed\nSee synthetic report"}
+{"id":"compilation-01","expected":"compilation","log":"Compiling demo module\nerror: cannot find symbol SyntheticWidget"}
+{"id":"compilation-02","expected":"compilation","log":"Build failed: compile\nSyntaxError: unexpected token in sample.py"}
+{"id":"authentication-01","expected":"authentication","log":"Request to synthetic service\n401 Unauthorized: test identity rejected"}
+{"id":"authentication-02","expected":"authentication","log":"Authentication failed for synthetic test principal"}
+{"id":"timeout-01","expected":"timeout","log":"Waiting for local test service\nOperation timed out after 30 seconds"}
+{"id":"timeout-02","expected":"timeout","log":"Synthetic job deadline exceeded"}
+{"id":"unknown-01","expected":"unknown","log":"Build completed with a warning about optional sample metadata"}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "retry-safety",
+    "title": "Synthetic Retry Safety Guide",
+    "text": "Use an idempotency key so retries can be recognized as the same operation. Record the request outcome before sending the response. Set a bounded retry policy with exponential backoff and jitter."
+  },
+  {
+    "id": "service-health",
+    "title": "Synthetic Service Health Guide",
+    "text": "Track request latency and error rate for each service. Compare current signals with a documented service objective. Use a health check that verifies dependencies needed to serve real requests."
+  },
+  {
+    "id": "safe-deployments",
+    "title": "Synthetic Deployment Guide",
+    "text": "Release a change to a small test group before expanding availability. Define rollback conditions before starting the release. Compare error rate and latency with the previous stable version."
+  },
+  {
+    "id": "data-handling",
+    "title": "Synthetic Data Handling Guide",
+    "text": "Keep credentials in a secret store and never include them in application logs. Collect only the data needed for the feature. Apply access checks before returning a document to a caller."
+  }
+]

@@ -1,0 +1,4 @@
+[12:05:00] running synthetic unit suite
+test_total_is_stable ... FAIL
+AssertionError: expected 4 but got 3
+[12:05:02] 1 failed, 8 passed

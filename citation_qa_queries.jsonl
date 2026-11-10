@@ -1,0 +1,6 @@
+{"query":"How can repeated task execution be prevented?","expected_document":"retry-safety","expected_abstain":false}
+{"query":"What retry timing should be used?","expected_document":"retry-safety","expected_abstain":false}
+{"query":"Which service signals should be tracked?","expected_document":"service-health","expected_abstain":false}
+{"query":"How should a release begin?","expected_document":"safe-deployments","expected_abstain":false}
+{"query":"Where should credentials be kept?","expected_document":"data-handling","expected_abstain":false}
+{"query":"What is the capital of Mars?","expected_document":null,"expected_abstain":true}

@@ -1,0 +1,4 @@
+[12:04:00] starting synthetic dependency installation
+[12:04:01] resolving package constraints
+ERROR: Could not resolve package 'sample-lib==9.9.9'
+[12:04:02] job stopped
